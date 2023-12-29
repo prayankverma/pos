@@ -1,0 +1,66 @@
+/* custom css */
+.main{
+  min-height: 460px !important;
+}
+.text-divider {
+  --text-divider-gap: 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 0.9375rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+
+.text-divider::before, .text-divider::after {
+  content: '';
+  height: 1px;
+  background-color: rgb(45, 145, 237);
+  flex-grow: 1;
+}
+
+.text-divider::before {
+  margin-right: var(--text-divider-gap);
+}
+
+.text-divider::after {
+  margin-left: var(--text-divider-gap);
+}
+
+.agent-list tbody,th{
+font-size: 12px;
+}
+
+.nav-pills .nav-link
+  {
+    font-size: 12px !important;
+    color: black !important;
+    font-weight: 700 !important;
+  }
+  .nav-pills .nav-link.active {
+    font-size: 12px !important;
+    padding: 6px 10px 6px 10px !important;
+    color: white !important;
+    border-radius: 20px !important;
+    background-color: black !important;
+    font-weight: 700 !important;
+  }
+  .box-sty
+  {
+    width: 36px;
+    text-align: center;
+    height: 36px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 36px;
+    background: lightgray;
+  }
+  .box-text
+  {
+
+    font-size: 14px;
+    font-weight: 600;
+
+  }
+/* custom css */
