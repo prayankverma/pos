@@ -100,7 +100,16 @@ if (isset($_SESSION["USER_ID"])) {
     <div class="container">
         
       <div class="row justify-content-center">
-          <div class="col-md-6 d-flex flex-column align-items-start justify-content-center">
+
+          <div class="col-md-6 d-flex flex-column align-items-start justify-content-center ">
+          <div class="d-flex justify-content-center py-4">
+              
+                  <img src="assets/img/logo.svg" alt="" width="100%">
+                  
+                
+              </div><!-- End Logo -->
+
+
               <img class="mx-auto" src="car.jpg" width="100%">
               
        
@@ -111,12 +120,7 @@ if (isset($_SESSION["USER_ID"])) {
           <div class="row justify-content-center">
             <div class="col-lg-10 col-md-10 d-flex flex-column align-items-center justify-content-center">
 
-              <div class="d-flex justify-content-center py-4">
-                <a href="./" class="logo d-flex align-items-center w-auto">
-                  <img src="assets/img/logo.png" alt="">
-                  <span class="d-none d-lg-block">Nimbusinsurance</span>
-                </a>
-              </div><!-- End Logo -->
+             
 
               <div class="card mb-3">
 
