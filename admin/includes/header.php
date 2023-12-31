@@ -90,8 +90,8 @@ if ($userType !== 'admin') {
 
     <div class="d-flex align-items-center justify-content-between">
       <a href="./" class="logo d-flex align-items-center">
-        <img src="../assets/img/logo.png" alt="">
-        <span class="d-none d-lg-block">Nimbusinsurance</span>
+        <img src="../assets/img/logo.svg" alt="" width="100%px">
+        <!-- <span class="d-none d-lg-block"><img src="../assets/img/logo.svg" alt="" width="100%"></span> -->
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i>
     </div><!-- End Logo -->

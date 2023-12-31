@@ -11,6 +11,14 @@
           <span>Dashboard</span>
         </a>
       </li>
+      
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="sell-policy.php">
+          <i class="bi bi-journal-text"></i>
+          <span>Sell Policy</span>
+        </a>
+      </li>
+
       <li class="nav-item">
         <a class="nav-link collapsed" href="lead.php">
           <i class="bi bi-card-list"></i>
@@ -25,12 +33,7 @@
         </a>
       </li>
       
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="sell-policy.php">
-          <i class="bi bi-journal-text"></i>
-          <span>Sell Policy</span>
-        </a>
-      </li>
+   
       <li class="nav-item">
         <a class="nav-link collapsed" href="support.php">
           <i class="bi bi-file-earmark"></i>

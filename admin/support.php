@@ -33,7 +33,7 @@ include 'includes/sidebar-menu.php';
             <div class="info-box card">
               <i class="bi bi-envelope"></i>
               <h3>Email Us</h3>
-              info@thenimbusinsurance.com
+              support@thenimbusinsurance.com
             </div>
           </div>
 
