@@ -18,303 +18,188 @@ include 'includes/sidebar-menu.php';
     <div class="row">
 
       <div class="col-lg-6">
-         <div class="card">
-            <div class="card-body mt-3">
-              <!-- <h5 class="card-title">Pills Tabs</h5> -->
+        <div class="card">
+          <div class="card-body mt-3">
+            <!-- <h5 class="card-title">Pills Tabs</h5> -->
 
-              <!-- Pills Tabs -->
-              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link active" id="pills-atab1" data-bs-toggle="pill" data-bs-target="#atab1" type="button" role="tab" aria-selected="true">Today</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-atab2" data-bs-toggle="pill" data-bs-target="#atab2" type="button" role="tab"  aria-selected="false">Yesterday</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-atab3" data-bs-toggle="pill" data-bs-target="#atab3" type="button" role="tab"  aria-selected="false">This Month</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-atab4" data-bs-toggle="pill" data-bs-target="#atab4" type="button" role="tab"  aria-selected="false">Customise</button>
-                </li>
-              </ul>
-              <div class="tab-content pt-2" id="myTabContent">
-                <div class="tab-pane fade show active" id="atab1" role="tabpanel" >
-                  
-                  <div class="row">
+            <!-- Pills Tabs -->
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-atab1" data-bs-toggle="pill" data-bs-target="#atab1" type="button" role="tab" aria-selected="true">Today</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-atab2" data-bs-toggle="pill" data-bs-target="#atab2" type="button" role="tab" aria-selected="false">Yesterday</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-atab3" data-bs-toggle="pill" data-bs-target="#atab3" type="button" role="tab" aria-selected="false">This Month</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-atab4" data-bs-toggle="pill" data-bs-target="#atab4" type="button" role="tab" aria-selected="false">Customise</button>
+              </li>
+            </ul>
+            <div class="tab-content pt-2" id="myTabContent">
+              <div class="tab-pane fade show active" id="atab1" role="tabpanel">
+
+                <div class="row">
+
+
+                  <div class="col-6">
+
                     <div class="col-2">
                       <div class="icon">
                         <i class="bi bi-bookmarks-fill" style="font-size:56px;color: gray;"> </i>
                       </div>
                     </div>
                     <div class="col-8">
-                       <div style="font-size: 32px;"><strong>45</strong></div>
-                       <div style="font-size: 16px;"><strong>Total Policy</strong></div>
+                      <div style="font-size: 32px;"><strong>45</strong></div>
+                      <div style="font-size: 16px;"><strong>Total Policy</strong></div>
 
                     </div>
+
                   </div>
 
-                  <div class="row mt-3">
-                    <div class="col-4">
-                        <div class="box-sty">10</div>
-                        <div class="box-text mt-2">Car</div>
-                    </div>
-                    <div class="col-4">
-                      <div class="box-sty">5</div>
-                      <div class="box-text mt-2">Two Wheeler</div>
-                    </div>
-                    <div class="col-4">
-                      <div class="box-sty">10</div>
-                      <div class="box-text mt-2">Commercial</div>
-                   </div>
-                  </div>
-                  
-                </div>
 
-                <div class="tab-pane fade" id="atab2" role="tabpanel" >
-                  <div class="row">
+                  <div class="col-6">
+
                     <div class="col-2">
                       <div class="icon">
-                        <i class="bi bi-bookmarks-fill" style="font-size:56px;color: gray;"> </i>
+                        <i class="bi bi-currency-exchange" style="font-size:56px;color: gray;"> </i>
                       </div>
                     </div>
                     <div class="col-8">
-                       <div style="font-size: 32px;"><strong>45</strong></div>
-                       <div style="font-size: 16px;"><strong>Total Policy</strong></div>
+                      <div style="font-size: 32px;"><strong>45</strong></div>
+                      <div style="font-size: 16px;"><strong>Total Premium</strong></div>
 
                     </div>
+
                   </div>
 
-                  <div class="row mt-3">
-                    <div class="col-4">
-                        <div class="box-sty">10</div>
-                        <div class="box-text mt-2">Car</div>
-                    </div>
-                    <div class="col-4">
-                      <div class="box-sty">5</div>
-                      <div class="box-text mt-2">Two Wheeler</div>
-                    </div>
-                    <div class="col-4">
-                      <div class="box-sty">10</div>
-                      <div class="box-text mt-2">Commercial</div>
-                   </div>
+
+
+
+                </div>
+
+                <div class="row mt-3">
+                  <div class="col-4">
+                    <div class="box-sty">10</div>
+                    <div class="box-text mt-2">Car</div>
+                  </div>
+                  <div class="col-4">
+                    <div class="box-sty">5</div>
+                    <div class="box-text mt-2">Two Wheeler</div>
+                  </div>
+                  <div class="col-4">
+                    <div class="box-sty">10</div>
+                    <div class="box-text mt-2">Commercial</div>
                   </div>
                 </div>
 
-                <div class="tab-pane fade" id="atab3" role="tabpanel" >
-                 <div class="row">
-                    <div class="col-2">
-                      <div class="icon">
-                        <i class="bi bi-bookmarks-fill" style="font-size:56px;color: gray;"> </i>
-                      </div>
-                    </div>
-                    <div class="col-8">
-                       <div style="font-size: 32px;"><strong>45</strong></div>
-                       <div style="font-size: 16px;"><strong>Total Policy</strong></div>
+              </div>
 
+              <div class="tab-pane fade" id="atab2" role="tabpanel">
+                <div class="row">
+                  <div class="col-2">
+                    <div class="icon">
+                      <i class="bi bi-bookmarks-fill" style="font-size:56px;color: gray;"> </i>
                     </div>
                   </div>
+                  <div class="col-8">
+                    <div style="font-size: 32px;"><strong>45</strong></div>
+                    <div style="font-size: 16px;"><strong>Total Policy</strong></div>
 
-                  <div class="row mt-3">
-                    <div class="col-4">
-                        <div class="box-sty">10</div>
-                        <div class="box-text mt-2">Car</div>
-                    </div>
-                    <div class="col-4">
-                      <div class="box-sty">5</div>
-                      <div class="box-text mt-2">Two Wheeler</div>
-                    </div>
-                    <div class="col-4">
-                      <div class="box-sty">10</div>
-                      <div class="box-text mt-2">Commercial</div>
-                   </div>
                   </div>
                 </div>
 
-                <div class="tab-pane fade" id="atab4" role="tabpanel" >
-                 <div class="row">
-                    <div class="col-2">
-                      <div class="icon">
-                        <i class="bi bi-bookmarks-fill" style="font-size:56px;color: gray;"> </i>
-                      </div>
-                    </div>
-                    <div class="col-8">
-                       <div style="font-size: 32px;"><strong>45</strong></div>
-                       <div style="font-size: 16px;"><strong>Total Policy</strong></div>
-
-                    </div>
+                <div class="row mt-3">
+                  <div class="col-4">
+                    <div class="box-sty">10</div>
+                    <div class="box-text mt-2">Car</div>
                   </div>
-
-                  <div class="row mt-3">
-                    <div class="col-4">
-                        <div class="box-sty">10</div>
-                        <div class="box-text mt-2">Car</div>
-                    </div>
-                    <div class="col-4">
-                      <div class="box-sty">5</div>
-                      <div class="box-text mt-2">Two Wheeler</div>
-                    </div>
-                    <div class="col-4">
-                      <div class="box-sty">10</div>
-                      <div class="box-text mt-2">Commercial</div>
-                   </div>
+                  <div class="col-4">
+                    <div class="box-sty">5</div>
+                    <div class="box-text mt-2">Two Wheeler</div>
+                  </div>
+                  <div class="col-4">
+                    <div class="box-sty">10</div>
+                    <div class="box-text mt-2">Commercial</div>
                   </div>
                 </div>
-              </div><!-- End Pills Tabs -->
+              </div>
 
-            </div>
+              <div class="tab-pane fade" id="atab3" role="tabpanel">
+                <div class="row">
+                  <div class="col-2">
+                    <div class="icon">
+                      <i class="bi bi-bookmarks-fill" style="font-size:56px;color: gray;"> </i>
+                    </div>
+                  </div>
+                  <div class="col-8">
+                    <div style="font-size: 32px;"><strong>45</strong></div>
+                    <div style="font-size: 16px;"><strong>Total Policy</strong></div>
+
+                  </div>
+                </div>
+
+                <div class="row mt-3">
+                  <div class="col-4">
+                    <div class="box-sty">10</div>
+                    <div class="box-text mt-2">Car</div>
+                  </div>
+                  <div class="col-4">
+                    <div class="box-sty">5</div>
+                    <div class="box-text mt-2">Two Wheeler</div>
+                  </div>
+                  <div class="col-4">
+                    <div class="box-sty">10</div>
+                    <div class="box-text mt-2">Commercial</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="atab4" role="tabpanel">
+                <div class="row">
+                  <div class="col-2">
+                    <div class="icon">
+                      <i class="bi bi-bookmarks-fill" style="font-size:56px;color: gray;"> </i>
+                    </div>
+                  </div>
+                  <div class="col-8">
+                    <div style="font-size: 32px;"><strong>45</strong></div>
+                    <div style="font-size: 16px;"><strong>Total Policy</strong></div>
+
+                  </div>
+                </div>
+
+                <div class="row mt-3">
+                  <div class="col-4">
+                    <div class="box-sty">10</div>
+                    <div class="box-text mt-2">Car</div>
+                  </div>
+                  <div class="col-4">
+                    <div class="box-sty">5</div>
+                    <div class="box-text mt-2">Two Wheeler</div>
+                  </div>
+                  <div class="col-4">
+                    <div class="box-sty">10</div>
+                    <div class="box-text mt-2">Commercial</div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Pills Tabs -->
+
           </div>
+        </div>
       </div>
       <div class="col-lg-6">
-         <div class="card">
-            <div class="card-body mt-3">
-              <!-- <h5 class="card-title">Pills Tabs</h5> -->
-
-              <!-- Pills Tabs -->
-              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link active" id="pills-btab1" data-bs-toggle="pill" data-bs-target="#btab1" type="button" role="tab" aria-selected="true">Today</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-btab2" data-bs-toggle="pill" data-bs-target="#btab2" type="button" role="tab"  aria-selected="false">Yesterday</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-btab3" data-bs-toggle="pill" data-bs-target="#btab3" type="button" role="tab"  aria-selected="false">This Month</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-btab4" data-bs-toggle="pill" data-bs-target="#btab4" type="button" role="tab"  aria-selected="false">Customise</button>
-                </li>
-              </ul>
-              <div class="tab-content pt-2" id="myTabContent">
-                <div class="tab-pane fade show active" id="btab1" role="tabpanel" >
-                  <div class="row">
-                    <div class="col-2">
-                      <div class="icon">
-
-                        <i class="bi bi-currency-exchange" style="font-size:56px;color: gray;"> </i>
-                      </div>
-                    </div>
-                    <div class="col-8">
-                       <div style="font-size: 32px;"><strong>45</strong></div>
-                       <div style="font-size: 16px;"><strong>Total Premium</strong></div>
-
-                    </div>
-                  </div>
-
-                  <div class="row mt-3">
-                    <div class="col-4">
-                        <div class="box-sty">10</div>
-                        <div class="box-text mt-2">Car</div>
-                    </div>
-                    <div class="col-4">
-                      <div class="box-sty">5</div>
-                      <div class="box-text mt-2">Two Wheeler</div>
-                    </div>
-                    <div class="col-4">
-                      <div class="box-sty">10</div>
-                      <div class="box-text mt-2">Commercial</div>
-                   </div>
-                  </div>
-                </div>
-
-                <div class="tab-pane fade" id="btab2" role="tabpanel" >
-                  <div class="row">
-                    <div class="col-2">
-                      <div class="icon">
-
-                        <i class="bi bi-currency-exchange" style="font-size:56px;color: gray;"> </i>
-                      </div>
-                    </div>
-                    <div class="col-8">
-                       <div style="font-size: 32px;"><strong>45</strong></div>
-                       <div style="font-size: 16px;"><strong>Total Premium</strong></div>
-
-                    </div>
-                  </div>
-
-                  <div class="row mt-3">
-                    <div class="col-4">
-                        <div class="box-sty">10</div>
-                        <div class="box-text mt-2">Car</div>
-                    </div>
-                    <div class="col-4">
-                      <div class="box-sty">5</div>
-                      <div class="box-text mt-2">Two Wheeler</div>
-                    </div>
-                    <div class="col-4">
-                      <div class="box-sty">10</div>
-                      <div class="box-text mt-2">Commercial</div>
-                   </div>
-                  </div>
-                </div>
-                <div class="tab-pane fade" id="btab3" role="tabpanel" >
-                 <div class="row">
-                    <div class="col-2">
-                      <div class="icon">
-
-                        <i class="bi bi-currency-exchange" style="font-size:56px;color: gray;"> </i>
-                      </div>
-                    </div>
-                    <div class="col-8">
-                       <div style="font-size: 32px;"><strong>45</strong></div>
-                       <div style="font-size: 16px;"><strong>Total Premium</strong></div>
-
-                    </div>
-                  </div>
-
-                  <div class="row mt-3">
-                    <div class="col-4">
-                        <div class="box-sty">10</div>
-                        <div class="box-text mt-2">Car</div>
-                    </div>
-                    <div class="col-4">
-                      <div class="box-sty">5</div>
-                      <div class="box-text mt-2">Two Wheeler</div>
-                    </div>
-                    <div class="col-4">
-                      <div class="box-sty">10</div>
-                      <div class="box-text mt-2">Commercial</div>
-                   </div>
-                  </div>
-                </div>
-                <div class="tab-pane fade" id="btab4" role="tabpanel" >
-                 <div class="row">
-                    <div class="col-2">
-                      <div class="icon">
-
-                        <i class="bi bi-currency-exchange" style="font-size:56px;color: gray;"> </i>
-                      </div>
-                    </div>
-                    <div class="col-8">
-                       <div style="font-size: 32px;"><strong>45</strong></div>
-                       <div style="font-size: 16px;"><strong>Total Premium</strong></div>
-
-                    </div>
-                  </div>
-
-                  <div class="row mt-3">
-                    <div class="col-4">
-                        <div class="box-sty">10</div>
-                        <div class="box-text mt-2">Car</div>
-                    </div>
-                    <div class="col-4">
-                      <div class="box-sty">5</div>
-                      <div class="box-text mt-2">Two Wheeler</div>
-                    </div>
-                    <div class="col-4">
-                      <div class="box-sty">10</div>
-                      <div class="box-text mt-2">Commercial</div>
-                   </div>
-                  </div>
-                </div>
-              </div><!-- End Pills Tabs -->
-
-            </div>
-          </div>
-      </div>
-
 
 
       
+      
+      </div>
+
+
+
+
   </section>
 
   <!-- Chart -->
